@@ -2,7 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d46a4ac-d973-4043-ab95-baf7177e04b8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/darx/arrays/Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/darx/linkedlist/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/darx/linkedlist/LinkedListBar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/darx/linkedlist/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/darx/arrays/UtilTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/darx/linkedlist/LinkedListBarTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/darx/linkedlist/LinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/darx/arrays/ArrayFoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/darx/arrays/ArrayFoo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/darx/arrays/ArrayFooTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/darx/arrays/ArrayFooTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,11 +35,22 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -26,7 +58,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1bAGTpb5roVC2sevMDRRCVbfpUB" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -40,26 +74,116 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="groovy.util.GroovyTestCase" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.darx.linkedlist" />
       <recent name="com.darx.arrays" />
+    </key>
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="com.darx.arrays.Maths" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
       <recent name="groovy.util.GroovyTestCase" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/darx/linkedlist" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestAll">
-    <configuration name="ArrayFooTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.LinkedListBarTest.detectCycle2">
+    <configuration name="ArrayFooTest.moveZeroes3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.darx.arrays.ArrayFooTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.darx.arrays.ArrayFooTest.moveZeroes3&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ArrayFooTest.sortArrayByParity" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.darx.arrays.ArrayFooTest.sortArrayByParity&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="LinkedListBarTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.darx.linkedlist.LinkedListBarTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="LinkedListBarTest.detectCycle2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.darx.linkedlist.LinkedListBarTest.detectCycle2&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="LinkedListTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.darx.linkedlist.LinkedListTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -90,12 +214,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.ArrayFooTest" />
       <item itemvalue="JUnit.TestAll" />
+      <item itemvalue="Gradle.ArrayFooTest.moveZeroes3" />
+      <item itemvalue="Gradle.ArrayFooTest.sortArrayByParity" />
+      <item itemvalue="Gradle.LinkedListTest" />
+      <item itemvalue="Gradle.LinkedListBarTest" />
+      <item itemvalue="Gradle.LinkedListBarTest.detectCycle2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.ArrayFooTest" />
+        <item itemvalue="Gradle.LinkedListBarTest.detectCycle2" />
+        <item itemvalue="Gradle.LinkedListBarTest" />
+        <item itemvalue="Gradle.LinkedListTest" />
+        <item itemvalue="Gradle.ArrayFooTest.sortArrayByParity" />
+        <item itemvalue="Gradle.ArrayFooTest.moveZeroes3" />
       </list>
     </recent_temporary>
   </component>
@@ -114,45 +246,139 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="305" y="59" key="#TestAll/0.0.1536.960@0.0.1536.960" timestamp="1588078624611" />
-    <state x="232" y="137" width="1155" height="686" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588078564693">
-      <screen x="0" y="0" width="1536" height="960" />
+    <state x="290" y="154" width="1444" height="793" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588346631916">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="232" y="137" width="1155" height="686" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.960@0.0.1536.960" timestamp="1588078564693" />
+    <state x="232" y="137" width="1155" height="686" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.960@0.0.1536.960" timestamp="1588155057459" />
+    <state x="290" y="154" width="1444" height="793" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1588346631916" />
+    <state x="125" y="113" width="1670" height="855" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1589479016339">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="100" y="100" width="1336" height="760" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.960@0.0.1536.960" timestamp="1588154182921" />
+    <state x="125" y="113" width="1670" height="855" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1589479016339" />
     <state x="443" y="214" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1588078598369">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="443" y="214" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1536.960@0.0.1536.960" timestamp="1588078598369" />
-    <state width="1484" height="244" key="GridCell.Tab.0.bottom" timestamp="1588079027782">
+    <state x="474" y="160" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1588164097358">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1484" height="244" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1588079027782" />
-    <state width="1484" height="244" key="GridCell.Tab.0.center" timestamp="1588079027781">
+    <state x="474" y="160" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1536.960@0.0.1536.960" timestamp="1588164097358" />
+    <state x="665" y="13" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1588360601908">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="665" y="13" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1588360601908" />
+    <state width="1484" height="346" key="GridCell.Tab.0.bottom" timestamp="1589804675016">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1484" height="244" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1588079027781" />
-    <state width="1484" height="244" key="GridCell.Tab.0.left" timestamp="1588079027781">
+    <state width="1484" height="346" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1589804675016" />
+    <state width="1868" height="201" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1589480228570" />
+    <state width="1740" height="201" key="GridCell.Tab.0.bottom/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1589486521449" />
+    <state width="1484" height="346" key="GridCell.Tab.0.center" timestamp="1589804675016">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1484" height="244" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1588079027781" />
-    <state width="1484" height="244" key="GridCell.Tab.0.right" timestamp="1588079027782">
+    <state width="1484" height="346" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1589804675016" />
+    <state width="1868" height="201" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1589480228570" />
+    <state width="1740" height="201" key="GridCell.Tab.0.center/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1589486521448" />
+    <state width="1484" height="346" key="GridCell.Tab.0.left" timestamp="1589804675015">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1484" height="244" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1588079027782" />
-    <state x="389" y="274" key="com.intellij.ide.util.TipDialog" timestamp="1588067501978">
+    <state width="1484" height="346" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1589804675015" />
+    <state width="1868" height="201" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1589480228569" />
+    <state width="1740" height="201" key="GridCell.Tab.0.left/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1589486521448" />
+    <state width="1484" height="346" key="GridCell.Tab.0.right" timestamp="1589804675016">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="389" y="274" key="com.intellij.ide.util.TipDialog/0.0.1536.960@0.0.1536.960" timestamp="1588067501978" />
+    <state width="1484" height="346" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1589804675016" />
+    <state width="1868" height="201" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1589480228570" />
+    <state width="1740" height="201" key="GridCell.Tab.0.right/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1589486521449" />
+    <state width="1484" height="346" key="GridCell.Tab.1.bottom" timestamp="1589804675017">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state width="1484" height="346" key="GridCell.Tab.1.bottom/0.0.1536.960@0.0.1536.960" timestamp="1589804675017" />
+    <state width="1868" height="401" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1588772201397" />
+    <state width="1484" height="346" key="GridCell.Tab.1.center" timestamp="1589804675016">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state width="1484" height="346" key="GridCell.Tab.1.center/0.0.1536.960@0.0.1536.960" timestamp="1589804675016" />
+    <state width="1868" height="401" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1588772201396" />
+    <state width="1484" height="346" key="GridCell.Tab.1.left" timestamp="1589804675016">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state width="1484" height="346" key="GridCell.Tab.1.left/0.0.1536.960@0.0.1536.960" timestamp="1589804675016" />
+    <state width="1868" height="401" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1588772201396" />
+    <state width="1484" height="346" key="GridCell.Tab.1.right" timestamp="1589804675017">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state width="1484" height="346" key="GridCell.Tab.1.right/0.0.1536.960@0.0.1536.960" timestamp="1589804675017" />
+    <state width="1868" height="401" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1588772201397" />
+    <state x="549" y="400" key="ReplaceDuplicatesPrompt" timestamp="1588158696167">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state x="549" y="400" key="ReplaceDuplicatesPrompt/0.0.1536.960@0.0.1536.960" timestamp="1588158696167" />
+    <state x="486" y="308" key="com.intellij.ide.util.TipDialog" timestamp="1588760605160">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="389" y="274" key="com.intellij.ide.util.TipDialog/0.0.1536.960@0.0.1536.960" timestamp="1588322645252" />
+    <state x="486" y="308" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1588760605160" />
     <state x="386" y="344" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1588067800879">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="386" y="344" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.960@0.0.1536.960" timestamp="1588067800879" />
-    <state x="502" y="169" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1588077268469">
+    <state x="628" y="190" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1590058661445">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="502" y="169" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.960@0.0.1536.960" timestamp="1589801203470" />
+    <state x="628" y="190" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1590058661445" />
+    <state x="2420" y="190" key="com.intellij.testIntegration.createTest.CreateTestDialog/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1589484838497" />
+    <state x="443" y="201" width="649" height="582" key="extract.method.dialog" timestamp="1589804325391">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="502" y="169" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.960@0.0.1536.960" timestamp="1588077268469" />
+    <state x="443" y="201" width="649" height="582" key="extract.method.dialog/0.0.1536.960@0.0.1536.960" timestamp="1589804325391" />
+    <state x="554" y="226" key="extract.method.dialog/0.0.1920.1080@0.0.1920.1080" timestamp="1588243436405" />
+    <state width="750" height="530" key="javadoc.popup" timestamp="1588688867297">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="750" height="530" key="javadoc.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1588688867297" />
     <state x="467" y="23" key="refactoring.ChangeSignatureDialog" timestamp="1588069278977">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="467" y="23" key="refactoring.ChangeSignatureDialog/0.0.1536.960@0.0.1536.960" timestamp="1588069278977" />
+    <state x="436" y="0" width="1048" height="1080" key="search.everywhere.popup" timestamp="1588419652216">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="349" y="0" width="838" height="960" key="search.everywhere.popup/0.0.1536.960@0.0.1536.960" timestamp="1588341055770" />
+    <state x="436" y="0" width="1048" height="1080" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1588419652216" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/darx/arrays/ArrayFoo.java</url>
+          <line>127</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/darx/arrays/ArrayFoo.java</url>
+          <line>237</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/darx/arrays/ArrayFoo.java</url>
+          <line>382</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/darx/arrays/ArrayFoo.java</url>
+          <line>502</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/darx/linkedlist/LinkedListBar.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
