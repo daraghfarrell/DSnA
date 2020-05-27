@@ -138,7 +138,9 @@ public class LinkedListBar {
     }
 
     /**
-     *  Reverse linked list / juggle
+     *  Reverse linked list
+     *  Each node points back to previous and tail becomes head
+     *  Prev and curr slide along
      */
     public ListNode reverseList(ListNode head) {
         ListNode prev = null; // initial condition
@@ -155,7 +157,7 @@ public class LinkedListBar {
     }
 
     /**
-     * DF soluton
+     * DF soluton - 2 pointer
      * Time O(N)
      * Space O(1)
      * More
@@ -191,7 +193,7 @@ public class LinkedListBar {
     }
 
     /**
-     * Take2 using Sentinel Node
+     * Take2 using Sentinel Node - one pointer plus sentinel
      */
     public ListNode removeElements2(ListNode head, int val) {
         ListNode sentinel = new ListNode(0);
@@ -199,11 +201,50 @@ public class LinkedListBar {
 
         ListNode prev = sentinel, curr = head;
         while (curr != null) {
-            if (curr.val == val) prev.next = curr.next;
-            else prev = curr;
+            if (curr.val == val) {
+                prev.next = curr.next;
+            }
+            else {
+                prev = curr;
+            }
             curr = curr.next;
         }
         return sentinel.next;
+    }
+
+
+    public ListNode oddEvenList(ListNode head) {
+        ListNode even = new ListNode(0);
+        ListNode pEven = even;
+
+        ListNode odd = new ListNode(0);
+        ListNode pOdd = odd;
+
+        ListNode curr = head;
+        int count = 1;
+
+        while(curr != null) {
+            ListNode next = curr.next;
+            curr.next = null;
+
+            // even
+            if(count % 2 == 0) {
+                pEven.next = curr;
+                pEven = pEven.next;
+            }
+
+            // odds
+            else {
+                pOdd.next = curr;
+                pOdd = pOdd.next;
+            }
+
+            count++;
+            curr = next;
+        }
+
+        pOdd.next = even.next;
+        return odd.next;
     }
 }
 
